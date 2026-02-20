@@ -1,6 +1,6 @@
-# OmniShell
+# OmniCLI
 
-OmniShell is a lightweight, all-in-one terminal application built in C++. It provides a collection of essential tools and classic games within a single interactive environment, designed for users who prefer staying in the command line.
+OmniCLI is a lightweight, all-in-one terminal application built in C++. It provides a collection of essential tools and classic games within a single interactive environment, designed for users who prefer staying in the command line.
 
 The application uses `termios` to handle raw keyboard input, allowing for smooth, real-time navigation without needing to press "Enter" for every selection.
 
@@ -48,16 +48,16 @@ You will need a C++ compiler (like `g++`) installed on your system.
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/omnishell.git](https://github.com/yourusername/omnishell.git)
-    cd omnishell
+    git clone [https://github.com/yourusername/omniscli.git](https://github.com/yourusername/omnicli.git)
+    cd omnicli
     ```
     
 2. Compile the source code:
     ```
-    g++ -o omnishell main.cpp
+    g++ -o omnicli main.cpp
     ```
     
 Run the application:
     ```
-    ./omnishell
+    ./omnicli
     ```
